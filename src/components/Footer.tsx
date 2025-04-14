@@ -9,8 +9,8 @@ const Footer = () => {
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
      <div>
       <HashLink smooth to="/#" className="flex items-center">
-       <CreditCard className="h-8 w-8 text-blue-500" />
-       <span className="ml-2 text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+       <CreditCard className="h-8 w-8 text-orange-500" />
+       <span className="ml-2 text-xl font-bold text-orange-500 bg-clip-text">
         Finsino
        </span>
       </HashLink>

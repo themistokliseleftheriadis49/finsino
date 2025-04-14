@@ -51,7 +51,7 @@ const Home = () => {
        />
       </motion.div>
       <motion.div variants={fadeIn} className="order-1 lg:order-2 space-y-6">
-       <p className="text-2xl text-blue-600 font-semibold">
+       <p className="text-2xl text-orange-600 font-semibold">
         High-risk. High-speed. High approval.
        </p>
        <p className="text-xl text-gray-600">
@@ -62,7 +62,7 @@ const Home = () => {
        <div className="pt-4 flex flex-wrap gap-4">
         <HashLink
          to="/book/#"
-         className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+         className="inline-flex items-center px-6 py-3 bg-orange-600 text-white font-medium rounded-lg hover:bg-orange-700 transition-colors"
         >
          Book a Strategy Call
          <ChevronRight className="ml-2 h-5 w-5" />
@@ -70,7 +70,7 @@ const Home = () => {
         <HashLink
          smooth
          to="/#solutions"
-         className="inline-flex items-center px-6 py-3 bg-white text-blue-600 font-medium rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors"
+         className="inline-flex items-center px-6 py-3 bg-white text-orange-600 font-medium rounded-lg border-2 border-orange-600 hover:bg-orange-50 transition-colors"
         >
          Explore Our Platform
          <ChevronRight className="ml-2 h-5 w-5" />
@@ -123,7 +123,7 @@ const Home = () => {
          variants={fadeIn}
          className="flex items-start space-x-6 p-6 rounded-xl hover:bg-gray-50 transition-colors"
         >
-         <feature.icon className="h-16 w-16 text-blue-600 flex-shrink-0" />
+         <feature.icon className="h-16 w-16 text-orange-600 flex-shrink-0" />
          <div>
           <h3 className="text-xl font-semibold text-gray-900 mb-2">
            {feature.title}
@@ -197,7 +197,7 @@ const Home = () => {
          variants={fadeIn}
          className="flex items-start space-x-6 p-6 rounded-xl hover:bg-white transition-colors"
         >
-         <div className="bg-blue-600 p-4 rounded-full">
+         <div className="bg-orange-600 p-4 rounded-full">
           <feature.icon className="h-8 w-8 text-white" />
          </div>
          <div>
@@ -243,7 +243,7 @@ const Home = () => {
           variants={fadeIn}
           className="flex items-center text-gray-700"
          >
-          <ChevronRight className="h-5 w-5 text-blue-600 mr-2" />
+          <ChevronRight className="h-5 w-5 text-orange-600 mr-2" />
           {item}
          </motion.li>
         ))}
@@ -297,7 +297,7 @@ const Home = () => {
           variants={fadeIn}
           className="flex items-center text-gray-700"
          >
-          <ChevronRight className="h-5 w-5 text-blue-600 mr-2" />
+          <ChevronRight className="h-5 w-5 text-orange-600 mr-2" />
           {item}
          </motion.li>
         ))}
@@ -326,7 +326,7 @@ const Home = () => {
       </p>
       <HashLink
        to="/book/#"
-       className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+       className="inline-flex items-center px-8 py-4 bg-orange-600 text-white font-medium rounded-lg hover:bg-orange-700 transition-colors"
       >
        Request a Demo
        <ChevronRight className="ml-2 h-5 w-5" />

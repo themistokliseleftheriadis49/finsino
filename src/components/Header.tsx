@@ -32,8 +32,8 @@ const Header = () => {
     >
      <div className="flex items-center">
       <HashLink smooth to="/#" className="flex items-center">
-       <CreditCard className="h-8 w-8 text-blue-500" />
-       <span className="ml-2 text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+       <CreditCard className="h-8 w-8 text-orange-500" />
+       <span className="ml-2 text-xl font-bold text-orange-500 bg-clip-text">
         Finsino
        </span>
       </HashLink>
@@ -73,8 +73,8 @@ const Header = () => {
         to="/book/#"
         className={`px-4 py-2 rounded-full text-sm font-medium text-white transition-colors ${
          scrolled
-          ? "bg-blue-600 hover:bg-blue-700"
-          : "bg-blue-500 hover:bg-blue-600"
+          ? "bg-orange-600 hover:bg-orange-700"
+          : "bg-orange-500 hover:bg-orange-600"
         }`}
        >
         Get Started
@@ -127,7 +127,7 @@ const Header = () => {
       </HashLink>
       <HashLink
        to="/book/#"
-       className="block w-full px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-600 hover:bg-blue-700"
+       className="block w-full px-4 py-2 rounded-full text-sm font-medium text-white bg-orange-600 hover:bg-orange-700"
       >
        Get Started
       </HashLink>
