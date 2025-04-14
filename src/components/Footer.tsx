@@ -85,7 +85,7 @@ const Footer = () => {
      <div>
       <h3 className="text-gray-900 font-semibold mb-4">Contact</h3>
       <ul className="space-y-2">
-       <li className="text-gray-600">Email: contact@finsino.com</li>
+       <li className="text-gray-600">Email: operations@finsino.com</li>
        <li className="text-gray-600">Support: 24/7 Available</li>
       </ul>
      </div>
