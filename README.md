@@ -1,3 +1,3 @@
 # Finsino
 
-React v18
+React v18 + Emailjs
