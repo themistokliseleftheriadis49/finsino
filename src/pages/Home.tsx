@@ -40,7 +40,7 @@ const Home = () => {
       variants={fadeIn}
       className="text-5xl lg:text-6xl font-bold text-gray-900 text-center mb-16"
      >
-      Seamless Payments for the World's Top Online Casinos
+      Seamless Payments for the World's Top Online Businesses
      </motion.h1>
      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <motion.div variants={fadeIn} className="order-2 lg:order-1 relative">
@@ -52,10 +52,10 @@ const Home = () => {
       </motion.div>
       <motion.div variants={fadeIn} className="order-1 lg:order-2 space-y-6">
        <p className="text-2xl text-orange-600 font-semibold">
-        High-risk. High-speed. High approval.
+        High-speed. High approval.
        </p>
        <p className="text-xl text-gray-600">
-        Built for the online casino industry. Our platform delivers real-time
+        Built for the any industry. Our platform delivers real-time
         approvals, secure processing, and seamless integration with global
         payment networks.
        </p>
@@ -92,7 +92,7 @@ const Home = () => {
     >
      <motion.div variants={fadeIn} className="text-center mb-16">
       <h2 className="text-3xl font-bold text-gray-900">
-       Payment Solutions Built for Online Casinos
+       Payment Solutions Built for Online Businesses
       </h2>
      </motion.div>
 
@@ -101,9 +101,9 @@ const Home = () => {
        {[
         {
          icon: CreditCard,
-         title: "High-Risk Credit Card Processing",
+         title: "Credit Card Processing",
          description:
-          "Accept major credit cards with optimized approval rates for high-risk merchants.",
+          "Accept major credit cards with optimized approval rates for businesses.",
         },
         {
          icon: Globe,
@@ -113,9 +113,9 @@ const Home = () => {
         },
         {
          icon: Shield,
-         title: "Instant Banking",
+         title: "Alternative Payment Methods",
          description:
-          "Offer fast, secure bank-to-bank payments for local and international players.",
+          "Unlock growth by integrating local alternative payment methods that give your customers the freedom to pay the way they trust most.",
         },
        ].map((feature, index) => (
         <motion.div
@@ -228,14 +228,14 @@ const Home = () => {
         Designed for High-Stakes Performance
        </h2>
        <p className="text-gray-600 mb-8">
-        Our platform is designed to support rapid scaling for online casino
-        operators. Whether you're launching or expanding globally, we provide
+        Our platform is designed to support rapid scaling for businesses.
+        Whether you're launching or expanding globally, we provide
         the tools and infrastructure to handle complex payment flows with ease.
        </p>
        <ul className="space-y-4">
         {[
          "Scalable architecture for high-volume transactions",
-         "Seamless onboarding for new operators",
+         "Seamless onboarding for new businesses",
          "Real-time reporting and reconciliation dashboard",
         ].map((item, index) => (
          <motion.li
@@ -318,7 +318,7 @@ const Home = () => {
     >
      <motion.div variants={fadeIn} className="text-center">
       <h2 className="text-3xl font-bold text-white mb-4">
-       Let's Redefine Online Casino Payments Together
+       Let's Redefine Payments Together
       </h2>
       <p className="text-xl text-gray-300 mb-8">
        Schedule a personalized demo with our payment specialists and see what
@@ -339,3 +339,4 @@ const Home = () => {
 };
 
 export default Home;
+
