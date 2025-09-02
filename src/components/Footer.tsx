@@ -15,7 +15,7 @@ const Footer = () => {
        </span>
       </HashLink>
       <p className="mt-4 text-gray-600 text-sm">
-       Seamless payments for the world's top online casinos.
+       Seamless payments for the world's top online businesses.
       </p>
      </div>
 
