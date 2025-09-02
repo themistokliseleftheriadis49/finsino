@@ -65,7 +65,7 @@ const Book = () => {
      <div className="prose max-w-none">
       <p className="text-xl text-gray-600 mb-8">
        Book a personalized session with our payment specialists to discover how
-       Finsino can transform your online casino's payment infrastructure.
+       Finsino can transform your online business payment infrastructure.
       </p>
 
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
@@ -166,3 +166,4 @@ const Book = () => {
 };
 
 export default Book;
+
